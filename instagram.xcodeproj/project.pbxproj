@@ -13,6 +13,7 @@
 		F96000AB1C6338B90064F50F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96000AA1C6338B90064F50F /* Assets.xcassets */; };
 		F96000AE1C6338B90064F50F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96000AC1C6338B90064F50F /* LaunchScreen.storyboard */; };
 		F96000B61C63435C0064F50F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96000B51C63435C0064F50F /* PhotosViewController.swift */; };
+		F96000BA1C63D12B0064F50F /* InstaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96000B91C63D12B0064F50F /* InstaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F96000AD1C6338B90064F50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F96000AF1C6338B90064F50F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F96000B51C63435C0064F50F /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		F96000B91C63D12B0064F50F /* InstaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		F96000A21C6338B90064F50F /* instagram */ = {
 			isa = PBXGroup;
 			children = (
+				F96000B91C63D12B0064F50F /* InstaTableViewCell.swift */,
 				F96000B51C63435C0064F50F /* PhotosViewController.swift */,
 				F96000A31C6338B90064F50F /* AppDelegate.swift */,
 				F96000A71C6338B90064F50F /* Main.storyboard */,
@@ -213,6 +216,7 @@
 			files = (
 				F96000A41C6338B90064F50F /* AppDelegate.swift in Sources */,
 				F96000B61C63435C0064F50F /* PhotosViewController.swift in Sources */,
+				F96000BA1C63D12B0064F50F /* InstaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
